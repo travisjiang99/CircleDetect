@@ -56,7 +56,8 @@ HoughCircles(
     maxRadius=30    # 最大半径
 )
 输出示例
-https://data/pic/20250616194552/2-1/detection_results/sample_result.png
+圆形检测结果：
+![圆形检测结果](https://github.com/user-attachments/assets/2fef760e-f61a-4690-9684-1d2f41171841)
 
 2. showROIpcd.py
 功能特点
@@ -79,3 +80,7 @@ Q键	退出
 依赖安装
 bash
 pip install opencv-python numpy matplotlib open3d lxml
+
+输出示例
+对应点云标注：
+![对应点云标注](https://github.com/user-attachments/assets/c5bdc893-e176-4381-8baf-0677ee10fc63)
